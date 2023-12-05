@@ -1,0 +1,30 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 30
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 30
+    }
+    sourceSets {
+        main {
+            assets.srcDirs += "$buildDir/generated/assets"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+tasks.register('genUUID') {
+    def uuid0 = UUID.randomUUID().toString()
+    def odir0 = file("$buildDir/generated/assets/en-US")
+    def ofile0 = file("$odir0/uuid")
+    doLast {
+        mkdir odir0
+        ofile0.text = uuid0
+    }
+}
+
+preBuild.dependsOn(genUUID)

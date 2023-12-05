@@ -1,0 +1,3 @@
+rootProject.name = "Vosk Powered Live Subtitle"
+include ':app'
+include ':models'

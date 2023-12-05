@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.vosk.livesubtitle"
+4    android:versionCode="1"
+5    android:versionName="1.0.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:6:5-71
+11-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:6:22-68
+12    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+12-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:7:5-80
+12-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+13-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:8:5-85
+13-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:8:22-82
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:9:5-67
+14-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:11:5-78
+16-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:11:22-75
+17    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+17-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:12:5-13:47
+17-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:12:22-70
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:14:5-15:40
+18-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:14:22-78
+19    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+19-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:16:5-17:40
+19-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:16:22-79
+20
+21    <application
+21-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:19:5-56:19
+22        android:allowBackup="true"
+22-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:20:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\395dcef454f25521e51182a527203fae\core-1.1.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:21:9-54
+27        android:icon="@mipmap/ic_launcher_foreground"
+27-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:22:9-54
+28        android:label="@string/app_name"
+28-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:23:9-41
+29        android:supportsRtl="true"
+29-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:24:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:25:9-40
+32        <service
+32-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:27:9-31:41
+33            android:name="org.vosk.livesubtitle.VoskVoiceRecognizer"
+33-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:28:13-48
+34            android:enabled="true"
+34-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:29:13-35
+35            android:exported="false"
+35-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:30:13-37
+36            android:permission="TODO" />
+36-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:31:13-38
+37        <service
+37-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:32:9-36:41
+38            android:name="org.vosk.livesubtitle.create_overlay_mic_button"
+38-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:33:13-54
+39            android:enabled="true"
+39-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:34:13-35
+40            android:exported="false"
+40-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:35:13-37
+41            android:permission="TODO" />
+41-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:36:13-38
+42        <service
+42-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:37:9-41:41
+43            android:name="org.vosk.livesubtitle.create_overlay_translation_text"
+43-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:38:13-60
+44            android:enabled="true"
+44-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:39:13-35
+45            android:exported="false"
+45-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:40:13-37
+46            android:permission="TODO" />
+46-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:41:13-38
+47
+48        <activity
+48-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:43:9-51:20
+49            android:name="org.vosk.livesubtitle.MainActivity"
+49-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:44:13-41
+50            android:configChanges="keyboardHidden|screenSize|orientation|screenLayout|navigation"
+50-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:45:13-98
+51            android:exported="true" >
+51-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:46:13-36
+52            <intent-filter>
+52-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:47:13-50:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:48:17-69
+53-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:48:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:49:17-77
+55-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:49:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <uses-library
+59-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:52:9-55:15
+60            android:name="org.apache.http.legacy"
+60-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:53:13-50
+61            android:required="false" />
+61-->C:\Users\Admin\Desktop\VOSK-Powered-Live-Subtitle-V3-main\app\src\main\AndroidManifest.xml:54:13-37
+62    </application>
+63
+64</manifest>
